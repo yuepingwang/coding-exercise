@@ -4,10 +4,10 @@ public interface ElevatorBuilder{
 
 	public void moveDown();
 
-	public void addNewFloor(Integer floor);
+	public void addNewFloor(int floor);
 
 	public ElevatorDirection direction();
 
 	public ElevatorStatus status();
-	
+
 }

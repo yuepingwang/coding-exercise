@@ -3,12 +3,13 @@ import java.util.Queue;
 
 public class Elevator implements ElevatorBuilder {
 
-	private Integer curFloor;
+	private int curFloor;
 	private Queue<Integer> destFloors;
 
-	public Elevator(Interger curFloor){
+	public Elevator(int curFloor){
 		this.curFloor = curFloor;
 		this.destFloors = new LinkedList<Integer>();
 	}
-	
+
+	public 
 }

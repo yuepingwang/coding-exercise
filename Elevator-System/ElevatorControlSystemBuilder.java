@@ -1,8 +1,8 @@
 public interface ElevatorControlSystemBuilder{
 
-	public void pickUp(Integer floor);
+	public void pickUp(int floor);
 
-	public void destination(Integer elevatorId, Interger floor);
-	
+	public void dest(int elevatorId, int floor);//destination
+
 	public void step();
 }
